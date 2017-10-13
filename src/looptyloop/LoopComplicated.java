@@ -10,11 +10,18 @@ public class LoopComplicated {
 
 		int hi;
 		int low; 
+		int hi2=0;
 		System.out.println("Hi, time to make a time table.");
 		System.out.println("What is the biggest number you want?");
 		hi=in.nextInt();
+		System.out.println("What is the biggest number you want?");
+		low=in.nextInt();
+		if (hi<low) {
+			hi=low;
+			low=hi2;
+			System.out.println("Sorry but I was told to make this idiot proof");
+		}
 		
-
 	}
 
 }
