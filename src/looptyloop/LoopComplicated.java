@@ -21,7 +21,12 @@ public class LoopComplicated {
 			low=hi2;
 			System.out.println("Sorry but I was told to make this idiot proof");
 		}
-		
-	}
+		while (hi<low) {
+		System.out.print(low);
+		while (hi<low) 
+			System.out.print(low++); 
+		}
+			
 
+	}
 }
